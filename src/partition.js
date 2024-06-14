@@ -1,3 +1,12 @@
+/**
+ * This function filters an array but returns two array
+ * The first array should contain the elements that pass the test represented by the callback function.
+ * And the second should contain those that fail that same test.  
+ * @param {array} array 
+ * @param {function} callbackFn 
+ * @returns {array} passedCheck, failedCheck
+ */
+
 export default function partition(array, callbackFn) {
     const passedCheck = []
     const failedCheck = []
